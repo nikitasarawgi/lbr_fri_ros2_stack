@@ -1,0 +1,6 @@
+[submodule "src/lib_fri_idl"]
+	path = src/lib_fri_idl
+	url = https://github.com/lbr-stack/lbr_fri_idl
+[submodule "src/fri"]
+	path = src/fri
+	url = https://github.com/lbr-stack/fri
