@@ -282,9 +282,9 @@ hardware_interface::return_type SystemInterface::read(const rclcpp::Time & /*tim
                         lbr_fri_ros2::ColorScheme::ERROR
                             << "LBR left COMMANDING_ACTIVE. Please re-run lbr_bringup"
                             << lbr_fri_ros2::ColorScheme::ENDC);
-    app_ptr_->request_stop();
-    app_ptr_->close_udp_socket();
-    return hardware_interface::return_type::ERROR;
+    // app_ptr_->request_stop();
+    // app_ptr_->close_udp_socket();
+    // return hardware_interface::return_type::ERROR;
   }
 
   // state interfaces that require cast
